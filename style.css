@@ -97,7 +97,7 @@ body{
   width: 260px;             /* atur ukuran coin */
   height: 260px;            /* harus sama supaya bulat */
   border-radius: 50%;       /* membuat bulat */
-  background-image: url('zilla-coin.png'); /* gambar coin */
+  background-image: url('zilla-coin1.jpg'); /* gambar coin */
   background-size: cover;   /* gambar tidak akan lonjong */
   background-position: center;
   background-repeat: no-repeat;
