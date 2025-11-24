@@ -99,6 +99,7 @@ body{
   justify-content:center;
   margin-top:8px;
   margin-bottom:12px;
+  border-radius: 50%; /* membuat bentuk bulat */
 }
 .coin{
   width:280px; /* ubah sesuai kebutuhan */
