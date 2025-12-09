@@ -1,52 +1,198 @@
-<!doctype html>
-<html lang="id">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ZILLA Foundation</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZILA Token - Dark AI</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0b0b0d;
+        color: white;
+        text-align: center;
+    }
+
+    /* NAVIGATION */
+    nav {
+        background: #0f0f12;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 0 10px #00c8ff60;
+    }
+
+    nav a {
+        color: #00c8ff;
+        margin: 0 15px;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #fff;
+        text-shadow: 0 0 10px #00c8ff;
+    }
+
+    /* COIN */
+    .coin-container {
+        margin-top: 50px;
+    }
+
+    .coin {
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #00c8ff;
+        box-shadow: 0 0 20px #00c8ff80;
+    }
+
+    /* SECTION STYLE */
+    section {
+        padding: 60px 20px;
+        max-width: 900px;
+        margin: auto;
+        border-bottom: 1px solid #1a1a1c;
+    }
+
+    h2 {
+        color: #00c8ff;
+        text-shadow: 0 0 10px #00c8ff;
+    }
+
+    p {
+        line-height: 1.7;
+        font-size: 17px;
+        color: #dcdcdc;
+    }
+
+    /* SOCIAL ICONS */
+    .social-icons img {
+        width: 40px;
+        margin: 10px;
+        transition: 0.3s;
+    }
+
+    .social-icons img:hover {
+        transform: scale(1.2);
+        filter: drop-shadow(0 0 10px #00c8ff);
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 30px;
+        font-size: 15px;
+        color: #aaa;
+        border-top: 1px solid #1b1b1d;
+        margin-top: 50px;
+    }
+</style>
 </head>
+
 <body>
-  <main class="hero">
-    <div class="overlay"></div>
 
-    <header class="topbar">
-      <div class="brand">ZILLA <span class="tag">Foundation</span></div>
-      <nav class="nav">
-        <a href="about.html">About</a>
-        <a href="ecosystem.html">Ecosystem</a>
-        <a href="airdrop.html">Airdrop</a>
-        <a class="btn-outline" href="connect">Connect</a>
-      </nav>
-    </header>
+<!-- NAVBAR -->
+<nav>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#mechanism">Mechanism</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#whitepaper">Whitepaper</a>
+</nav>
 
-    <section class="center-panel">
-      <div class="coin-circle"></div>
+<!-- COIN IMAGE -->
+<div class="coin-container">
+    <img src="zilacoy.jpg" alt="ZILA Token" class="coin">
+</div>
 
-      <h1 class="title">Welcome to <strong>ZILLA Foundation</strong></h1>
+<!-- SMART CONTRACT -->
+<section>
+    <h2>Smart Contract</h2>
+    <p>
+        PolygonScan:  
+        <a href="https://polygonscan.com/" target="_blank" style="color:#00c8ff;">
+            https://polygonscan.com/tx/ZILA
+        </a>
+    </p>
+</section>
 
-      <p class="lead">
-        ZILLA (SZILA) is a multichain memecoin powered by innovation, community, and speed.
-      </p>
+<!-- ABOUT -->
+<section id="about">
+    <h2>What is ZILA Token?</h2>
+    <p>
+        ZILA is a next-generation Dark AI cryptocurrency built to bridge intelligent automation 
+        with decentralized ecosystems. Designed for efficiency, transparency, and ultra-fast 
+        blockchain operations, ZILA empowers the digital future.
+    </p>
+</section>
 
-      <p class="desc">
-        Build on polygon, Solana, and BNB Chain, unites meme culture with advanced technology.
-      </p>
+<!-- VISION -->
+<section>
+    <h2>Vision & Mission</h2>
+    <p><b>Vision:</b> To become the world’s leading AI-powered token ecosystem with real utility.</p>
+    <p><b>Mission:</b> Deliver AI automation, enhance blockchain transparency, and create a powerful 
+    decentralized community that grows together.</p>
+</section>
 
-      <p class="cta-note">
-        Join us in building the future of decentralized fun!
-      </p>
+<!-- TOKENOMICS -->
+<section id="tokenomics">
+    <h2>Tokenomics</h2>
+    <p>Total Supply: <b>1,000,000,000 ZILA</b></p>
+    <p>• Liquidity: 50%  
+       <br>• Community Rewards: 30%  
+       <br>• Marketing: 10%  
+       <br>• Development: 10%
+    </p>
+</section>
 
-      <div class="actions">
-        <a class="btn-primary" href="#airdrop">Join Airdrop</a>
-        <a class="btn-ghost" href="#whitepaper">Whitepaper</a>
-      </div>
+<!-- MECHANISM -->
+<section id="mechanism">
+    <h2>Mechanism</h2>
+    <p>
+        ZILA uses a deflationary model with AI-driven analytics to support stability, 
+        transparency, and real community demand.
+    </p>
+</section>
 
-      <footer id="connect" class="footer">
-        <div>Connect with us: <a href="#" class="link">Telegram</a> • <a href="#" class="link">Twitter</a></div>
-      </footer>
-    </section>
-  </main>
+<!-- ROADMAP -->
+<section id="roadmap">
+    <h2>Roadmap</h2>
+    <p>
+        Q1 — Launch Token + Website  
+        <br>Q2 — AI Integration + Community Growth  
+        <br>Q3 — CEX Listing + Partnerships  
+        <br>Q4 — Expand Dark AI Ecosystem
+    </p>
+</section>
+
+<!-- WHITEPAPER -->
+<section id="whitepaper">
+    <h2>Whitepaper</h2>
+    <p>
+        Download Whitepaper:  
+        <br><a href="ZILA_Whitepaper.pdf" target="_blank" style="color:#00c8ff;">Click Here</a>
+    </p>
+</section>
+
+<!-- SOCIAL MEDIA -->
+<section>
+    <h2>Contact & Support</h2>
+
+    <div class="social-icons">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"></a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 ZILA — All Rights Reserved.
+</footer>
+
 </body>
 </html>
